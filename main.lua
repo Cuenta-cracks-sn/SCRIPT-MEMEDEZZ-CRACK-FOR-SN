@@ -31,7 +31,7 @@ end
 setupAntiAFK()
 
 -- Create Main Window
-local window = library:AddWindow("HONNYDEZZ - SCRIP | Crackeado for SN", {
+local window = library:AddWindow("HONNYDEZZ - SCRIPT | Crackeado for SN", {
     main_color = Color3.fromRGB(144, 0, 194),
     min_size = Vector2.new(550, 600),
     can_resize = true,
@@ -42,7 +42,7 @@ local mainTab = window:AddTab("Main")
 local farmPlusTab = window:AddTab("Farm")
 mainTab:Show() -- Show this tab by default
 
-mainTab:AddLabel("HONNYDEZZ|SCRIP PUBLICO")
+mainTab:AddLabel("HONNYDEZZ | SCRIPT PUBLICO")
 
 
 -- Add Anti-AFK toggle
